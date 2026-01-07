@@ -1,160 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Skillwork | Skills over Degrees</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f5f7fb;
-      color: #333;
-    }
-
-    header {
-      background: #1f3cff;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-
-    header p {
-      font-size: 18px;
-      margin-top: 8px;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    .section {
-      background: white;
-      padding: 30px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-    }
-
-    .section h2 {
-      margin-top: 0;
-      color: #1f3cff;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      border: 1px solid #eee;
-      border-radius: 8px;
-      padding: 20px;
-    }
-
-    .card h3 {
-      margin-top: 0;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 20px;
-      background: #1f3cff;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-
-    .btn.secondary {
-      background: #333;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skillwork – Skills Over Degrees</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
-  <h1>Skillwork</h1>
-  <p>Get work by skills, not degrees</p>
-</header>
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Get Work Done Based on Skills, Not Degrees</h1>
+    <p>Skillwork connects people who need work with people who have real skills.</p>
 
-<div class="container">
+    <div class="buttons">
+      <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdrobF_KkPw1Xa9R5ik6fUlC1Vxa_7mnC26OetsIEU1BY1rNw/viewform?usp=dialog" target="_blank">
+        Post a Skill
+      </a>
 
-  <div class="section">
-    <h2>What is Skillwork?</h2>
-    <p>
-      Skillwork is a skill-based marketplace where people find work and hire talent
-      without resumes, degrees, or complicated hiring.
-    </p>
-  </div>
-
-  <div class="section">
-    <h2>How it works</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>For Clients</h3>
-        <ul>
-          <li>Post the skill you need</li>
-          <li>Get matched with skilled people</li>
-          <li>Approve and start work</li>
-        </ul>
-      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdrobF_KkPw1Xa9R5ik6fUlC1Vxa_7mnC26OetsIEU1BY1rNw/viewform?usp=dialog" target="_blank">
-  Post a Skill
-</a>
-        
-</a>
-      </div>
-
-      <div class="card">
-        <h3>For Skilled People</h3>
-        <ul>
-          <li>List your skills</li>
-          <li>Accept or reject work requests</li>
-          <li>Get paid for your skills</li>
-        </ul>
-</a>
-
-<a class="btn secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSe2PxOUBhmVCqkaGXcAhxUT-dYzoHhqaKaxRWfdHMmmj-55Fw/viewform?usp=dialog" target="_blank">
-  Offer Your Skill
-</a>
-
-      </div>
+      <a class="btn secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSe2PxOUBhmVCqkaGXcAhxUT-dYzoHhqaKaxRWfdHMmmj-55Fw/viewform?usp=dialog" target="_blank">
+        Offer Your Skill
+      </a>
     </div>
-  </div>
+  </header>
 
-  <div class="section">
-    <h2>Why Skillwork?</h2>
-    <ul>
-      <li>No degrees required</li>
-      <li>Skill-first approach</li>
-      <li>Fast and simple matching</li>
-      <li>Fair opportunities for everyone</li>
-    </ul>
-  </div>
+  <!-- WHY -->
+  <section class="features">
+    <div class="feature">
+      <h3>🚫 No Degree Required</h3>
+      <p>Your skills matter more than certificates.</p>
+    </div>
 
-</div>
+    <div class="feature">
+      <h3>⚡ Fast Matching</h3>
+      <p>Find the right person based on real skills.</p>
+    </div>
 
-<footer>
-  © 2026 Skillwork • Built with ❤️ by Jack
-</footer>
+    <div class="feature">
+      <h3>💰 Low Commission</h3>
+      <p>Pay only when a deal is confirmed.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="steps">
+    <h2>How Skillwork Works</h2>
+    <ol>
+      <li>Post your requirement or skill</li>
+      <li>We match people based on skills</li>
+      <li>Deal, work, and grow together</li>
+    </ol>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Skillwork — Skills over degrees.</p>
+  </footer>
 
 </body>
 </html>
