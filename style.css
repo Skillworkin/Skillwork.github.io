@@ -126,8 +126,12 @@ footer {
 }
 
 .btn-text {
-  margin-top: 8px;
-  font-size: 14px;
-  color: #666;
+  margin-top: 6px;
+  font-size: 12px;        /* smaller text */
+  color: #777;            /* softer gray */
+  line-height: 1.4;
+  text-align: center;
+}
+
 }
 
