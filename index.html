@@ -1,3 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Skillwork – Skills Over Degrees</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Skillwork is a skill-based platform where people get work done without degrees. Hire or offer skills like video editing, website creation, and more.">
+  <meta name="keywords" content="skill based work, freelance without degree, hire freelancers, student freelancing, skillwork">
+  <meta name="author" content="Skillwork">
+
+  <style>
+    :root {
+      --blue: #2563eb;
+      --green: #16a34a;
+      --dark: #0f172a;
+      --light: #64748b;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --star: #facc15;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: var(--blue);
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: var(--light);
+      font-size: 16px;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+
+    /* Buttons */
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 15px;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .btn.primary {
+      background: var(--blue);
+      box-shadow: 0 6px 16px rgba(37,99,235,.25);
+    }
+
+    .btn.secondary {
+      background: var(--green);
+      box-shadow: 0 6px 16px rgba(22,163,74,.25);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn small {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      opacity: 0.9;
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+      gap: 24px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 26px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      background: #f9fbff;
+    }
+
+    .testimonial-cards {
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .testimonial {
+      background: white;
+      max-width: 300px;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+    }
+
+    .stars {
+      color: var(--star);
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .quote {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    /* Forms */
+    .forms {
+      background: white;
+    }
+
+    .form-box {
+      max-width: 850px;
+      margin: 50px auto;
+      background: var(--bg);
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+    }
+
+    iframe {
+      width: 100%;
+      height: 850px;
+      border: none;
+    }
+
+    /* Mobile */
+    @media (max-width:600px) {
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section>
+  <h1>Get Work Done Based on Skills, Not Degrees</h1>
+  <p>Skillwork connects people who need work done with people who have real, proven skills.</p>
+
+  <div class="buttons">
+    <a class="btn primary" href="#post-skill">
+      Post a Skill
+      <small>For people who can do work</small>
+    </a>
+
+    <a class="btn secondary" href="#get-skill">
+      Get a Skill Done
+      <small>For people who need work done</small>
+    </a>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+  <div class="features">
+    <div class="card">
+      <h3>🚫 No Degree Required</h3>
+      <p>Your skills matter more than certificates.</p>
+    </div>
+    <div class="card">
+      <h3>⚡ Fast Matching</h3>
+      <p>Find the right person based on real skills.</p>
+    </div>
+    <div class="card">
+      <h3>💰 Low Commission</h3>
+      <p>Pay only when a deal is confirmed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2>What People Say About Skillwork</h2>
+  <p>Feedback from early users</p>
+
+  <div class="testimonial-cards">
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p class="quote">“I got my first paid work without any degree.”</p>
+      <strong>Rohit</strong><br>
+      <small>Video Editor</small>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p class="quote">“Found the right freelancer in hours.”</p>
+      <strong>Ananya</strong><br>
+      <small>Business Owner</small>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p class="quote">“Perfect platform for skilled students.”</p>
+      <strong>Sameer</strong><br>
+      <small>Student</small>
+    </div>
+  </div>
+</section>
+
+<!-- GOOGLE FORMS -->
+<section class="forms">
+  <h2>Get Started</h2>
+  <p>Choose what you want to do</p>
+
+  <!-- Post a Skill -->
+  <div class="form-box" id="post-skill">
+    <h3>Post a Skill</h3>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrobF_KkPw1Xa9R5ik6fUlC1Vxa_7mnC26OetsIEU1BY1rNw/viewform?embedded=true"></iframe>
+  </div>
+
+  <!-- Get a Skill -->
+  <div class="form-box" id="get-skill">
+    <h3>Get a Skill Done</h3>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2PxOUBhmVCqkaGXcAhxUT-dYzoHhqaKaxRWfdHMmmj-55Fw/viewform?embedded=true"></iframe>
+  </div>
+</section>
+
+</body>
+</html>
 
     
           
